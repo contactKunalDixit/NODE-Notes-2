@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>This is EJS demo document</title>
+	</head>
+	<body>
+		<h1>Home Page <%=4+4+8%> <%= "Hello World".toUpperCase()%></h1>
+		<p>
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+			quisquam quos nihil unde porro, soluta temporibus nesciunt laboriosam
+			repellat id possimus! Accusantium, quos. Incidunt cupiditate eum,
+			reiciendis magni architecto
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequuntur
+			corrupti commodi error at repellat dolor consequatur rerum, aspernatur
+			expedita, nostrum minus similique suscipit nemo quod! Dolorum, harum
+			officia repellat soluta excepturi cumque velit error nam obcaecati
+			voluptates? Molestias tenetur omnis dolorem, laudantium eaque quaerat
+			itaque quo illo. Nesciunt, sit nisi. Beatae iure fugit deserunt quidem
+			nobis sed eaque ex.
+		</p>
+	</body>
+</html>
+
+<!--! IMPORTANT NOTES -->
+<!--? 1. EJS interpolation syntax can only be used within ".ejs" extension files	 -->
+<!-- ? 2. Within the tags <%= %>, everything you write , gets considered as actual JavaScript. As can be seen in the above example, you can even use strings along with the associated methods and properties <%= "Hello World".toUpperCase()%> -->
+<!-- * USually we dont need to embed the Javascript strings ( or numbers and thier associated methods like seen here) into HTML and, thus we very rarely would using this -->
+
+<!-- todo:  Instead ,the common use of this is to procure data from a dataBase and then embeding it into HTML and then finally rendering it to the client  -->
+
+<!-- ! ***************************************** -->

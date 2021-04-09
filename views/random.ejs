@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random Number</title>
+	</head>
+	<body>
+		<h1>Your random number is <%= `${rand} and ${name}`%></h1>
+	</body>
+</html>
+
+<!-- ! Next Chapter : Passing Data to Templates 
+
+General thumb of Rule: Ideally templates should just be simple and non calculative in nature. You should NOT put logic to template like adding javascript algorithms, or methods as seen above in <h1>
+
+we should NOT do that
+
+* TEMPLATES should just be used to pass and display the data. that means use the logic and calculations elsewhere and then just use the .ejs file to pass and display the data to the client
+
+
+
+* while naming the objects key value pairs in the index_EJS.js file, Another usual practice is to name it as {randNum : randNum}
+
+and then in the random.ejs file, seek randNum and not rand.
+
+-->
